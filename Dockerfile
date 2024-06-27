@@ -11,6 +11,6 @@ COPY ./requirements.txt /app/requirements.txt
 COPY mylib/ /app/mylib/
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 8081
 CMD ["main.py"]
 ENTRYPOINT ["python"]
