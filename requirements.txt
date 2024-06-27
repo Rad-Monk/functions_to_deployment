@@ -1,7 +1,10 @@
-pylint
-pytest
-black
-click
-wikipedia
-ipython
-fire
+pylint==3.2.4
+pytest==8.2.2
+black==24.4.2
+click==8.1.7
+wikipedia==1.4.0
+ipython==8.25.0
+fire==0.6.0
+uvicorn==0.30.1
+fastapi==0.111.0
+pydantic==2.7.4
