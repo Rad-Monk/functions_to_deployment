@@ -15,6 +15,9 @@ jobs:
     - name: Install dependencies
       run: make install
 
+    - name: formatting 
+      run: make format
+
     - name: run lint
       run: make lint
 
