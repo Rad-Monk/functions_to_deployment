@@ -20,3 +20,7 @@
 
  ### run container
  `docker run -p 127.0.0.1:8080:8081 <Image-id>`
+ get the image id from running the 2nd command from contanerize section
+
+ ### invoke POST
+`run invoke.sh`
