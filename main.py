@@ -24,7 +24,7 @@ async def root():
     return {"message": "to use goto '/predict'"}
 
 @app.get("/add/{num1}/{num2}")
-async def add(num1: int, num2: int):
+async def add_nums(num1: int, num2: int):
     result = add(num1,num2)
     payload =  {"sum": f"{result} is the sum of {num1} and {num2}"}
     json_compatible_item_data = jsonable_encoder(payload)
